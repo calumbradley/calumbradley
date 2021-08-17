@@ -1,0 +1,37 @@
+textarea{resize: none;}
+#decTextArea, #spongeTextArea, #cakeMessageTextArea, #cakesWrapper, #cupcakesWrapper, #cupTextArea {display: none;}
+#calc, .refPhoto {display: block;}
+#filecupcakes {display: inline;}
+#filecakes, #filecupcakes
+{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+#filecupcakesLab, #filecakesLab{margin-left: 16px;}
+select
+{
+-webkit-appearance: none;
+-moz-appearance: none;
+text-indent: 10px;
+text-overflow: '';
+}
+#require
+{
+  margin: auto;
+    width: 15%;
+    display: inline;
+}
+
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
