@@ -2,6 +2,7 @@ const express = require('express');
 const Datastore = require('nedb');
 const bp = require('body-parser') 
 const env = require('dotenv').config();
+const stripe = require('stripe')(process.env.STRIPE_SK);
  
 const app = express();
  
@@ -13,8 +14,6 @@ app.use(express.json({limit: '1mb'}));
 const PORT = process.env.PORT || 5000;
  
 app.listen(PORT), () => console.log('server running');
-
-
 
 app.post('/data', (req, res) => {
    
@@ -36,6 +35,9 @@ app.post('/data', (req, res) => {
     //Price is a number
     console.log(typeof price);  
     
+//Req - Represents a resource request.
+//Res - Represents the response to a request.
+
     app.post('/create-checkout-session', async (req, res) => {
      
         const session = await stripe.checkout.sessions.create({
@@ -45,16 +47,10 @@ app.post('/data', (req, res) => {
             mode: 'payment',
             line_items: [
               {
-                price_data: {
-                  currency: 'gbp',
-                  product_data: {
-                    name: 'T-shirt',
-                  },
-                  unit_amount: 2000,
-                },
+                price: 20,
                 quantity: 1,
               },
-            ]
+            ],
         })
         .then(console.log('Success'))
         .catch(console.log('Fail'))
