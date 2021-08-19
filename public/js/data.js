@@ -63,11 +63,23 @@ const addData = (ev) => {
 fetch('/data', options)
   .then(res => { if (res.ok) {console.log('Success')}})
   .then(data => data);
+
+
+ fetch('/create-checkout-session', {
+    method: 'POST',
+    });
+
+ // When the customer clicks on the button, redirect them to Checkout.
+ stripe.redirectToCheckout({
+   sessionId: session.id,
+ });
  
   //remove the data from the array as a last step
   cakeData.shift(data);
  
   document.querySelector('form').reset()
 }
+
+
  
 document.querySelector("#btn").addEventListener('click', addData);
