@@ -47,7 +47,7 @@ app.post('/data', (req, res) => {
             mode: 'payment',
             line_items: [
               {
-                price: 20,
+                price: price,
                 quantity: 1,
               },
             ],
