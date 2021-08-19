@@ -69,10 +69,7 @@ fetch('/data', options)
     method: 'POST',
     });
 
- // When the customer clicks on the button, redirect them to Checkout.
- stripe.redirectToCheckout({
-   sessionId: session.id,
- });
+
  
   //remove the data from the array as a last step
   cakeData.shift(data);
