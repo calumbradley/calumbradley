@@ -7,7 +7,7 @@
 
 - 👯 I’m looking to collaborate on [cakeitorleaveit](https://github.com/calumbradley/cakeitorleaveit)
 
-- 🤝 I’m looking for help with **Swift**
+- 🤝 I’m looking for help with **Swift** and **c#**
 
 - 👨‍💻 All of my projects are available at [https://github.com/calumbradley/](https://github.com/calumbradley/)
 
