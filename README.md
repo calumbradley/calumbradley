@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Calum Bradley</h1>
-<h3 align="center">A passionate full stack developer from England</h3>
+<h3 align="center">A passionate full stack developer from the United Kingdom</h3>
 
 - 🔭 I’m currently working on [my portfolio](https://github.com/calumbradley/dev_react_calums_portfolio)
 
