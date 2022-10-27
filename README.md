@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Calum Bradley</h1>
 <h3 align="center">Full stack developer from the United Kingdom</h3>
 
-- 🔭 I’m currently working on [my portfolio](https://github.com/calumbradley/dev_react_calums_portfolio)
+- 🔭 I’m currently working on [my portfolio](https://github.com/calumbradley/prod_express_calums_portfolio)
 
 - 🌱 I’m currently learning **React and ASP.net**
 
