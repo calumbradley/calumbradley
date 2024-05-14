@@ -13,7 +13,7 @@
 
 - 💬 Ask me about **Javascript and Node**
 
-- 📫 How to reach me **calum@calumbradley.com**
+- 📫 How to reach me **calumbradley@icloud.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
