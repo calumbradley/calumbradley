@@ -23,9 +23,9 @@
 
 <h3 align="left">Languages and Tools:</h3>
 <ul>
-  <li>Bootstrap</li>
-  <li>CSS3</li>
+  <li>Node.js</li>
   <li>Express</li>
+  <li>React</li>
   <li>Git</li>
   <li>HTML5</li>
   <li>JavaScript</li>
@@ -33,7 +33,5 @@
   <li>MongoDB</li>
   <li>Microsoft SQL Server</li>
   <li>Nginx</li>
-  <li>Node.js</li>
   <li>PostgreSQL</li>
-  <li>React</li>
 </ul>
