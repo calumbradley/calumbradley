@@ -7,7 +7,7 @@
 
 - 👯 I’m looking to collaborate on various projects
 
-- 🤝 I’m looking for help with **Swift**
+- 🤝 I’m looking for help with **ecom-raffle-app**
 
 - 👨‍💻 All of my projects are available on my GitHub profile
 
@@ -23,6 +23,8 @@
 
 <h3 align="left">Languages and Tools:</h3>
 <ul>
+  <li>Bootstrap</li>
+  <li>CSS3</li>
   <li>Express</li>
   <li>Git</li>
   <li>HTML5</li>
