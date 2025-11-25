@@ -1,13 +1,9 @@
 <h1 align="center">Hi 👋, I'm Calum Bradley</h1>
 <h3 align="center">Full stack developer from the United Kingdom</h3>
 
-- 🔭 I’m currently working on **ecom-raffle-app**
-
 - 🌱 I’m currently learning **React and Swift**
 
 - 👯 I’m looking to collaborate on various projects
-
-- 🤝 I’m looking for help with **ecom-raffle-app**
 
 - 👨‍💻 All of my projects are available on my GitHub profile
 
